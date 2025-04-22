@@ -18,7 +18,7 @@ const { length, currentUrl, currentPage, baseUrl, prevUrl, nextUrl, lastUrl } =
   Astro.props;
 
 // Define the maximum number of visible buttons
-const maxVisibleButtons = 4;
+const maxVisibleButtons = 2;
 
 // Calculate the range of visible page numbers
 const startPage = Math.max(1, currentPage - Math.floor(maxVisibleButtons / 2));
@@ -30,7 +30,7 @@ const adjustedStartPage = Math.max(1, endPage - maxVisibleButtons + 1);
 // Generate the pagination list based on the range
 const paginationList = Array.from(
   { length: endPage - adjustedStartPage + 1 },
-  (_, i) => adjustedStartPage + i
+  (_, i) => adjustedStartPage + i,
 );
 ---
 

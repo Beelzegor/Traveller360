@@ -73,3 +73,32 @@
     @apply hover:underline decoration-primary;
   }
 }
+
+.title-prueba {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: blanchedalmond;
+  margin-top: 50px;
+
+  /* Animación */
+  opacity: 0;
+  transform: translateY(-35px);
+  animation: aparecerDesdeArriba 2s ease-out forwards;
+}
+
+/* Animación personalizada */
+@keyframes aparecerDesdeArriba {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    font-size: 70px;
+  }
+}
+
+
+.parrafo-prueba {
+  @apply font-serif;
+  text-align: center;
+  
+}

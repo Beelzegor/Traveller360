@@ -1,7 +1,7 @@
 import type { Link } from "../types";
 
 export const SITE = {
-  title: "Astro News",
+  title: "Travellers360",
   description: "A news website built with Astro",
   author: "Mohammad Rahmani",
   url: "https://astro-news-six.vercel.app",
@@ -15,43 +15,48 @@ export const SITE = {
 
 export const NAVIGATION_LINKS: Link[] = [
   {
-    href: "/categories/technology",
-    text: "Technology",
+    href: "/categories/migracion",
+    text: "Migración",
   },
   {
-    href: "/categories/programming",
-    text: "Programming",
+    href: "/categories/causas",
+    text: "Causas",
   },
   {
-    href: "/categories/lifestyle",
-    text: "Lifestyle",
+    href: "/categories/globalizacion",
+    text: "Globalización",
   },
   {
-    href: "/categories/productivity",
-    text: "Productivity",
+    href: "/categories/origen",
+    text: "Origen",
   },
   {
-    href: "/categories/health",
-    text: "Health",
+    href: "/categories/destino",
+    text: "Destino",
   },
   {
-    href: "/categories/finance",
-    text: "Finance",
+    href: "/categories/refugiados",
+    text: "Refugiados",
   },
+  {
+    href: "/categories/futuro",
+    text: "Futuro",
+  }
 ];
 
 export const OTHER_LINKS: Link[] = [
   {
     href: "/about",
-    text: "About us",
+    text: "Nosotros",
   },
   {
     href: "/authors",
-    text: "Authors",
+    text: "Autores",
   },
+  /*
   {
     href: "/contact",
-    text: "Contact",
+    text: "Contacto",
   },
   {
     href: "/privacy",
@@ -73,6 +78,7 @@ export const OTHER_LINKS: Link[] = [
     href: "https://astro-news-six.vercel.app/sitemap-index.xml",
     text: "Sitemap",
   },
+  */
 ];
 
 export const SOCIAL_LINKS: Link[] = [
