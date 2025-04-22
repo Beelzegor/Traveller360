@@ -5,8 +5,8 @@
 "scripts": {
   "dev": "astro dev",
   "build": "astro build",
-  "preview": "astro preview",
-  "start": "astro preview"
+  "preview": "astro preview --port $PORT",
+  "start": "astro preview --port $PORT"
 },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
