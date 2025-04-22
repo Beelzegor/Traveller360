@@ -2,12 +2,12 @@
   "name": "astro-news",
   "type": "module",
   "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
+"scripts": {
+  "dev": "astro dev",
+  "build": "astro build",
+  "preview": "astro preview",
+  "start": "astro preview"
+},
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^4.2.4",
