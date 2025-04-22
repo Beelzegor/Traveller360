@@ -33,5 +33,9 @@ export default defineConfig({
   integrations,
   vite: {
     plugins: [tailwindcss()],
+    server: {
+      host: "0.0.0.0",  // Esto hace que Astro escuche en todas las interfaces
+      port: process.env.PORT || 3000,  // Asegúrate de que el puerto esté correctamente asignado
+    },
   },
 });
